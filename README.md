@@ -2,73 +2,71 @@
 
 >[IMPORTANT]
 >INTRO
-#### codigo sql
+#### INTRO
 
 SELECT CustomerName FROM Customers;
 
 >[IMPORTANT]
 >Syntax
-#### codigo sql
+#### Syntax
 
 SELECT Condiments FROM Categories
 
 >[IMPORTANT]
 >Select
-#### codigo sql
+#### Select
 
 SELECT CategoryName,CategoryID FROM Categories;
 
 >[IMPORTANT]
 >Select Distinct
-#### codigo sql
+#### Select Distinct
 
 SELECT DISTINCT CategoryID FROM Categories;
 
 >[IMPORTANT]
 >Where
-#### codigo sql
+#### Where
 
 SELECT * FROM Products
 WHERE ProductName='Chais';
 
 >[IMPORTANT]
 >Order By
-#### codigo sql
+#### Order By
 
 SELECT ProductName FROM Products
 ORDER BY Price;
 
 >[IMPORTANT]
 >And
-#### codigo sql
-
+#### And
 SELECT * FROM Customers
 WHERE Country = 'Mexico' AND CustomerName LIKE 'A%';
 
 >[IMPORTANT]
 >Or
-#### codigo sql
-
+#### Or
 SELECT CustomerID FROM Customers
 WHERE Country = 'Germany' OR Country = 'Spain';
 
 >[IMPORTANT]
 >Not
-#### codigo sql
+#### Not
 
 SELECT CustomerName FROM Customers
 WHERE NOT Country = 'Mexico';
 
 >[IMPORTANT]
 >Insert Into
-#### codigo sql
+#### Insert Into
 
 INSERT INTO Customers (CustomerName, Country)
 VALUES ('Cardinal', 'Brasil');
 
 >[IMPORTANT]
 >Null Values
-#### codigo sql
+#### Null Values
 
 SELECT CustomerID
 FROM Customers
@@ -76,14 +74,13 @@ WHERE CustomerName IS NULL;
 
 >[IMPORTANT]
 >Update
-#### codigo sql
-
+#### Update
 UPDATE Customers
 SET ContactName = 'Pedro', City= 'Cristino Castro'
 WHERE CustomerID = 1;
 
 >[IMPORTANT]
 >Delete
-#### codigo sql
+#### Delete
 
 DELETE FROM Customer WHERE CostumerName='Jack';
