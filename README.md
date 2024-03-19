@@ -28,7 +28,7 @@ SELECT DISTINCT CategoryID FROM Categories;
 >Where
 #### Where
 
-SELECT * FROM Products
+SELECT ProductID FROM Products
 WHERE ProductName='Chais';
 
 >[!IMPORTANT]
@@ -41,7 +41,7 @@ ORDER BY Price;
 >[!IMPORTANT]
 >And
 #### And
-SELECT * FROM Customers
+SELECT Customer FROM Customers
 WHERE Country = 'Mexico' AND CustomerName LIKE 'A%';
 
 >[!IMPORTANT]
